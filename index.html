@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio sencillo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="img/logo.png"
+            style="width: 40px; height: 40px; margin-left: 10px"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active bg-primary"
+                aria-current="page"
+                href="#proyecto"
+                >Proyecto</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-3">
+      <div class="card text-bg-dark">
+        <img src="img/showcase.jpg" class="card-img" alt="..." />
+        <div
+          class="card-img-overlay d-flex flex-column justify-content-center align-items-center"
+        >
+          <h3 class="card-title text-uppercase fw-bold fs-2">
+            bienvenidos a mi web
+          </h3>
+          <p class="text-danger fs-5">Suscribete para mayor información</p>
+          <button type="button" class="btn btn-success">Ingresa aquí</button>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3" id="proyecto">
+      <h2 class="text-center fs-2 fw-bold">Proyecto</h2>
+      <div class="card-group">
+        <div class="card">
+          <img src="img/portfolio-1.jpg" class="card-img-top" alt="..." />
+        </div>
+        <div class="card">
+          <img src="img/portfolio-2.jpg" class="card-img-top" alt="..." />
+        </div>
+        <div class="card">
+          <img src="img/portfolio-3.jpg" class="card-img-top" alt="..." />
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3" id="about">
+      <h2 class="text-center fs-2 text-black fw-bold">About</h2>
+      <div class="card my-3">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <h2 class="text-muted text-center mt-5">Experiencia</h2>
+            <p class="text-center text-danger fs-5">
+              Diseñador Gráfico en Universidad de Lima 2023
+            </p>
+            <p class="text-center text-success fs-5">
+              Marketing Digital en Toulousse Lautrec 2021
+            </p>
+            <p class="text-center text-danger fs-5">
+              Community Manager en ESAN 2019
+            </p>
+            <p class="text-center text-success fs-5">
+              Diseñador de interiores en TECSUP 2017
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="card-body mt-5">
+              <h2 class="card-title text-muted text-center fs-3">About Us</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+                accusantium ad quaerat laborum voluptatum eaque, quam modi
+                cupiditate consequuntur! Fuga, dolorem voluptatibus quo illo,
+                culpa architecto quidem incidunt excepturi consequuntur
+                laboriosam voluptatem eius nulla! Mollitia maxime reprehenderit
+                illum asperiores tenetur?
+              </p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                enim ipsam in commodi, hic odio corrupti quam. Quia quo qui
+                asperiores, debitis, corrupti magni repellat atque sunt commodi
+                laudantium animi nesciunt, delectus fugiat quaerat! Minima sint
+                non doloribus minus animi similique architecto, veritatis
+                voluptas, omnis ad impedit ab, natus amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3" id="contacto">
+      <h2 class="text-center">Contacto</h2>
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col">
+            <img src="img/icon-address.png" width="80" height="80" alt="" />
+            <p class="class">Av. Sucre 1254. Surco</p>
+          </div>
+          <div class="col">
+            <img src="img/icon-mail.png" width="80" height="80" alt="" />
+            <p>Jossflowers@hotmail.com</p>
+          </div>
+          <div class="col">
+            <img src="img/icon-phone.png" width="80" height="80" />
+            <p>051-999 453 851</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center mt-5 bg-tertiary">
+      <div class="row align-items-end" style="font-size: 45px;">
+        <div class="col">
+          <i class="bi bi-facebook" style="color: blue;"></i>
+        </div>
+        <div class="col">
+          <i class="bi bi-messenger" style="color: chocolate;"></i>
+        </div>
+        <div class="col">
+          <i class="bi bi-whatsapp" style="color: darkgreen;"></i>
+        </div>
+        <div class="col">
+          <i class="bi bi-instagram" style="color: brown;"></i>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
